@@ -8,20 +8,18 @@ Preamble/intro
 
 Overview
   These are the changes made to this specific license:
-  Copyright Owner: [NAME HERE]
-  Product Name: [NAME HERE]
+  Copyright Owner: Team GODL1KE
+  Project Name: Smart Search for a Research Expert Connections 
   License Modifications
     Source code is NOT provided.
     Warranty is NOT given.
-    You are allowed to have this software installed on [NUM] machine(s) at once.
-    Commercial or educational use is NOT allowed.
 
 Definitions
   "Product", or "software" refers to the work that is copyrighted under
   this license.
 
   "We", or "us" refer to the copyright owner of this product. That owner is
-  [NAME HERE]
+  Team GODL1KE
 
   "You" refers to the licensee of this product.
 
@@ -45,6 +43,6 @@ Source Code
 
 How to Use This License
   To use this license for your software, fill in the required fields, denoted
-  in brackets, like [THIS]. Modifications may be made by removing words in all
+  in brackets. Modifications may be made by removing words in all
   caps, like THIS. (If this is done, all the words in that section must be
   removed, and this must match the overview section.)
