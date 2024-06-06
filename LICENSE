@@ -1,24 +1,50 @@
-This is free and unencumbered software released into the public domain.
+Commercial Standard License
+------------------------------
 
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
+Preamble/intro
+  This software license may be freely used in unmodified form (with exceptions).
+  A work may only be copyrighted under this license in its unmodified form, or
+  with some subsections removed or swapped out. Details todo.
 
-In jurisdictions that recognize copyright laws, the author or authors
-of this software dedicate any and all copyright interest in the
-software to the public domain. We make this dedication for the benefit
-of the public at large and to the detriment of our heirs and
-successors. We intend this dedication to be an overt act of
-relinquishment in perpetuity of all present and future rights to this
-software under copyright law.
+Overview
+  These are the changes made to this specific license:
+  Copyright Owner: [NAME HERE]
+  Product Name: [NAME HERE]
+  License Modifications
+    Source code is NOT provided.
+    Warranty is NOT given.
+    You are allowed to have this software installed on [NUM] machine(s) at once.
+    Commercial or educational use is NOT allowed.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
+Definitions
+  "Product", or "software" refers to the work that is copyrighted under
+  this license.
 
-For more information, please refer to <https://unlicense.org>
+  "We", or "us" refer to the copyright owner of this product. That owner is
+  [NAME HERE]
+
+  "You" refers to the licensee of this product.
+
+License, not purchase
+  By purchasing this license, you are allowed to use this product, but we retain
+  the copyright to the software.
+
+Redistribution
+  You may not redistribute or resell the software.
+
+Warranty
+  This product does NOT come with any warranty, express or implied,
+  notwithstanding legislation to the contrary.
+
+Source Code
+  This software does NOT provide the source code, and it is NOT legal to attempt
+  to aquire it, whether by reverse engineering or otherwise.
+
+  Note: If the owner wishes to provide the source code, remove the NOTs in the
+  paragraph above. In either case, remove this notice.
+
+How to Use This License
+  To use this license for your software, fill in the required fields, denoted
+  in brackets, like [THIS]. Modifications may be made by removing words in all
+  caps, like THIS. (If this is done, all the words in that section must be
+  removed, and this must match the overview section.)
