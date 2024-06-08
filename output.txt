@@ -1,0 +1,104 @@
+{'name': 'Abayomi Otebolaku', 'affiliation': 'Department of Computing, Sheffield Hallam University', 'email': '@shu.ac.uk', 'scholar_id': 'QP-O59MAAAAJ'}
+{'name': 'Abdel-Karim Al-Tamimi', 'affiliation': 'Senior Lecturer at Sheffield Hallam University, Associate Professor of Computer Eng, Yarmouk Univ', 'email': '@shu.ac.uk', 'scholar_id': 'oVygx30AAAAJ'}
+{'name': 'Abdussalam, Salama', 'affiliation': 'PhD student', 'email': '@my.shu.ac.uk', 'scholar_id': 'QXqMgegAAAAJ'}
+{'name': 'Ahmed Al-Ani', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Ajmal Gharib', 'error': 'No researchers found.'}
+{'name': 'Alejandro Jimenez Rodriguez', 'error': 'No researchers found.'}
+{'name': 'Alessandro Di Nuovo', 'affiliation': 'Professor of Machine Intelligence, Sheffield Hallam University (UK)', 'email': '@shu.ac.uk', 'scholar_id': 'IU_6XEcAAAAJ'}
+{'name': 'Alex Shenfield', 'affiliation': 'Sheffield Hallam University', 'email': '@shu.ac.uk', 'scholar_id': 'XwCkg_wAAAAJ'}
+{'name': 'Carolin Körner', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Dr Aliyuda Ali', 'affiliation': 'Sheffield Hallam University, Sheffield, UK', 'email': '@shu.ac.uk', 'scholar_id': 'PgGzWf0AAAAJ'}
+{'name': 'Alicia Huff Arnold', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Andrew Briggs', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Andrew Charlesworth', 'error': 'No researchers found.'}
+{'name': 'Andrew Hamilton', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Angharad Ugonna', 'error': 'No researchers found.'}
+{'name': 'Anuradha Somangurthi', 'error': 'No researchers found.'}
+{'name': 'Muhammad Aslam Jarwar, Ph.D., FHEA, SMIEEE', 'affiliation': 'Assistant Professor, Department of Computing, Sheffield Hallam University', 'email': '@shu.ac.uk', 'scholar_id': 'nQTE0W8AAAAJ'}
+{'name': 'Azida Zainol', 'affiliation': 'Subject Group Computer Science and Software Engineering, Department of Computing, Sheffield Hallam', 'email': '@shu.ac.uk', 'scholar_id': 'o5_wqzYAAAAJ'}
+{'name': 'Karen Barros Parron Fernandes', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Elson Longo', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Charles Boisvert', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Christopher M. Bates', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'chris roast', 'affiliation': 'Sheffield Hallam University', 'email': '@shu.ac.uk', 'scholar_id': 'aow0GykAAAAJ'}
+{'name': 'Cyncia Matsika Chiyoko', 'error': 'No researchers found.'}
+{'name': 'Dani Papmaximou', 'error': 'No researchers found.'}
+{'name': 'Dharmendra Shadija', 'affiliation': 'Sheffield Hallam University', 'email': '@shu.ac.uk', 'scholar_id': '0M-QM9sAAAAJ'}
+{'name': 'Dr. Diana Hintea', 'affiliation': 'Deputy Head of Department (Computing), Sheffield Hallam University', 'email': '@shu.ac.uk', 'scholar_id': 'I7VtI_oAAAAJ'}
+{'name': 'Elizabeth Uruchurtu', 'error': 'No researchers found.'}
+{'name': 'Essam Eliwa', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Farid Dizjikan', 'error': 'No researchers found.'}
+{'name': 'Hemlata Shama', 'error': 'No researchers found.'}
+{'name': 'Jacky Stallard', 'error': 'No researchers found.'}
+{'name': 'James Baldwin', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'James W. Cain III', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Jamie Hufford', 'error': 'No researchers found.'}
+{'name': 'Jaya Lakshmi Tangirala', 'error': 'No researchers found.'}
+{'name': 'Dr. Jims Marchang', 'affiliation': 'SHU', 'email': '@shu.ac.uk', 'scholar_id': 'xBDklTsAAAAJ'}
+{'name': 'jie jin wang', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'John Haggerty', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Junghun Yoo', 'error': 'No researchers found.'}
+{'name': 'Kassim Mwitondi', 'affiliation': 'Industry and Innovation Research Institute, SHU', 'email': '@shu.ac.uk', 'scholar_id': 'T1HUBAwAAAAJ'}
+{'name': 'Dr. Gabriel Keith Harris', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Konstantinos Domdouszis', 'error': 'No researchers found.'}
+{'name': 'Lawrence Hirsch', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Mark Coddington', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Leo Vefghi', 'error': 'No researchers found.'}
+{'name': 'Lewis Quayle', 'error': 'No researchers found.'}
+{'name': 'Luke Melville', 'error': 'No researchers found.'}
+{'name': 'Lylah Haynes', 'error': 'No researchers found.'}
+{'name': 'Lyuba Alboul', 'affiliation': 'Senior Research Fellow, Sheffield Hallam University', 'email': '@shu.ac.uk', 'scholar_id': 'GaZwp0gAAAAJ'}
+{'name': 'Mansi Khurana', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Maria Luisa Davila Garcia', 'error': 'No researchers found.'}
+{'name': 'Márjory Da Costa-Abreu', 'affiliation': 'Associate Professor (Reader) in Ethical Artificial Intelligence at Sheffield Hallam University', 'email': '@exchange.shu.ac.uk', 'scholar_id': 'SfamgAEAAAAJ'}
+{'name': 'Mark Featherstone', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Mark Jacobi', 'error': 'No researchers found.'}
+{'name': 'Mark Townley', 'error': 'No researchers found.'}
+{'name': 'Martin Cooper', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Martyn Prigmore', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'maryam sadat bagheri mousavi', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Matthew Valle', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Matthew J Storey', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Mehmet Musa Ozcan', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Mike Marriott', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Michael Bass', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Mike Heselton', 'error': 'No researchers found.'}
+{'name': 'Leah Mark Bulus', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Michael Meredith', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Mark T. Quinn', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Mo Rezai', 'affiliation': 'Dr', 'email': '@shu.ac.uk', 'scholar_id': '4SDP_zoAAAAJ'}
+{'name': 'Muhammad Aitsam', 'affiliation': 'Ph.D. Candidate @ Sheffield Hallam University', 'email': '@iuse.edu.pk', 'scholar_id': '8zEI5F8AAAAJ'}
+{'name': 'Myles Dempsey', 'error': 'No researchers found.'}
+{'name': 'Najam ul Hasan', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Olamilekan  Shobayo', 'affiliation': 'Sheffield Hallam University', 'email': '@shu.ac.uk', 'scholar_id': 'GGmZdsYAAAAJ'}
+{'name': 'Vishal Parikh', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Paul Parry', 'error': 'No researchers found.'}
+{'name': 'Paul Thornley', 'error': 'No researchers found.'}
+{'name': "Peter O'Neill", 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Peter Rowlett', 'affiliation': 'Reader in higher education mathematics teaching and learning, Sheffield Hallam University', 'email': '@shu.ac.uk', 'scholar_id': 'BVtzIYIAAAAJ'}
+{'name': 'Philip Alassad', 'error': 'No researchers found.'}
+{'name': 'Dr. Pratiksha Sarma', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': "Ra'ed Bani Abdelrahman", 'affiliation': 'Senior Lecturer in Computer Science and Software Engineering, Sheffield Hallam University', 'email': '@shu.ac.uk', 'scholar_id': '2YBoeocAAAAJ'}
+{'name': 'Richard K. Wilson, Ph.D.', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Rizwana Rashad', 'error': 'No researchers found.'}
+{'name': 'Ros Porter', 'error': 'No researchers found.'}
+{'name': 'Saeed Hasani', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Lee Samuel Finn', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Samuele Vinanzi', 'affiliation': 'Senior Lecturer, Sheffield Hallam University', 'email': '@shu.ac.uk', 'scholar_id': 'bOeQv_YAAAAJ'}
+{'name': 'Sandhya Makkar', 'affiliation': 'United Kingdom', 'email': '@shu.ac.uk', 'scholar_id': 'H-KP_4EAAAAJ'}
+{'name': 'Dr. Sanjib Mohanty, MD', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Shahrzad Zargari', 'error': 'No researchers found.'}
+{'name': 'Siavosh Haghighi Movahed', 'affiliation': 'Sheffield Hallam University', 'email': '', 'scholar_id': 'GNDpVrUAAAAJ'}
+{'name': 'Sina Pournouri', 'affiliation': 'Sheffield Hallam Univeristy', 'email': '@shu.ac.uk', 'scholar_id': 'XQG6_oMAAAAJ'}
+{'name': 'Sohrab Moshiri', 'error': 'No researchers found.'}
+{'name': 'Soumya Sankar Basu', 'affiliation': 'Senior Lecturer, Sheffield Hallam University', 'email': '@shu.ac.uk', 'scholar_id': 'QrBXW2sAAAAJ'}
+{'name': 'Steve Mvalo', 'error': 'No researchers found.'}
+{'name': 'Sue Beckingham', 'affiliation': 'Associate Professor and National Teaching Fellow', 'email': '@shu.ac.uk', 'scholar_id': 'Y_6ZYQ4AAAAJ'}
+{'name': 'Temitope Adeosun', 'error': 'No researchers found.'}
+{'name': 'Tharmini Janarthanan', 'error': 'No researchers found.'}
+{'name': 'Tom Garner', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Tonderai Maswera', 'error': 'No researchers found.'}
+{'name': 'Tonderayi Moyana', 'error': 'No researchers found.'}
+{'name': 'Ulka Chandini Pendit', 'affiliation': 'Sheffield Hallam University', 'email': '', 'scholar_id': 'f4Mtt0QAAAAJ'}
+{'name': 'Yasir Javed', 'Error': 'Researcher is not affiliated with Sheffield Hallam University.'}
+{'name': 'Zairul M Jilani', 'error': 'No researchers found.'}
