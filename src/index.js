@@ -1,20 +1,41 @@
-const scholarly = require("scholarly");
-const fs = require("fs").promises;
+"use strict";
 
-async function fetchAuthorId(authorName) {
-    try {
-        const searchQuery = await scholarly.search(authorName);
+const { exec } = require("child_process");
+const fs = require("fs");
 
-        /* Checking if find Authors */
-        if (searchQuery.length === 0) { console.log("No Authors found!"); return; }
+async function fetchResearcherDetails(name) {
+    return new Promise((resolve, reject) => {
+        exec(`python3 search.py "${name}"`, (error, stdout, stderr) => {
+            if (error) {
+                reject(`Error: ${error.message}`);
+                return;
+            }
+            if (stderr) {
+                reject(`stderr: ${stderr}`);
+                return;
+            }
+            console.log(stdout);
 
-        /* Getting the first Author */
-        const author = searchQuery;
-
-        await fs.writeFile("author.json", JSON.stringify(author, null, 2));
-    } catch (error) {
-        console.error('Error fetching author ID:', error)
-    }
+            fs.readFile("researcher_details.json", "utf8", (err, data) => {
+                if (err) {
+                    reject(`Error reading JSON file: ${err}`);
+                    return;
+                }
+                resolve(JSON.parse(data));
+            });
+        });
+    });
 }
 
-fetchAuthorId("chris roast");
+if (require.main === module) {
+    const [,, researcherName] = process.argv;
+
+    if (!researcherName) {
+        console.error("Usage: node index.js 'Researcher Name'");
+        process.exit(1);
+    }
+
+    fetchResearcherDetails(researcherName)
+        .then(details => console.log(JSON.stringify(details, null, 4)))
+        .catch(error => console.error("Error:", error));
+}
