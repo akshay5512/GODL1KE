@@ -23,7 +23,7 @@ def checkResearcher(name):
         return {"name": details['name'], "Error": "Researcher is not affiliated with Sheffield Hallam University."}
 
 def readCSV():
-    filename = "test/staff_name.csv"
+    filename = "staff_name.csv"
     name = []
     with open(filename, 'r') as file:
         for line in file:
