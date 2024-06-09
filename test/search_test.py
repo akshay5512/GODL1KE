@@ -20,8 +20,7 @@ def checkResearcher(name):
     if "Sheffield Hallam University" in details['affiliation'] or details['email'].endswith("shu.ac.uk"):
         return details
     else:
-        return {"name": details['name'], "Error": "Researcher is not affiliated with Sheffield Hallam University."}
-
+        return {"name": details['name'], "error": "Researcher is not affiliated with Sheffield Hallam University."}
 
 def readCSV():
     filename = "staff_name.csv"
@@ -40,6 +39,5 @@ def readCSV():
 
     with open("staff_affiliation.json", 'w') as file:
         json.dump(staff_affiliation, file, indent=4)
-
 
 readCSV()
