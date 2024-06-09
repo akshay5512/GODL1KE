@@ -22,6 +22,7 @@ def checkResearcher(name):
     else:
         return {"name": details['name'], "Error": "Researcher is not affiliated with Sheffield Hallam University."}
 
+
 def readCSV():
     filename = "staff_name.csv"
     name = []
@@ -29,9 +30,16 @@ def readCSV():
         for line in file:
             name.append(line.strip())
 
+    staff_affiliation = []
     for n in name:
         details = checkResearcher(n)
-        print(details)
+        if "error" in details:
+            print(details)
+        else:
+            staff_affiliation.append(details)
+
+    with open("staff_affiliation.json", 'w') as file:
+        json.dump(staff_affiliation, file, indent=4)
 
 
 readCSV()
