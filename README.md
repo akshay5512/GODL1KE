@@ -2,7 +2,7 @@
 
 ### Overview
 
-The Smart Search for Research Expert Connections project aims to develop an intelligent platform designed to connect researchers with experts in their respective fields. By leveraging machine learning, the platform will facilitate collaboration, knowledge sharing, and networking within academic and research communities.
+Imagine a platform that instantly connects Sheffield Hallam researchers with ideal collaborators. Smart Search uses AI to analyze staff expertise and makes project work easy with secure collaboration tools. Researchers can find the most relevant research through advanced semantic search, encouraging meaningful partnerships. This project boosts innovation by helping researchers connect and work together efficiently, enabling them to achieve great things together.
 
 ### Features
 
@@ -12,6 +12,14 @@ The Smart Search for Research Expert Connections project aims to develop an inte
 - **Automated Profile Updates:** Integration with academic databases for automatic, comprehensive, and current user profile updates.
 - **Data Privacy and Security:** Robust measures to protect user information and ensure data protection compliance.
 - **AI Recommendations:** Personalized recommendations for potential collaborators using AI techniques.
+
+### Technical skills
+
+- **Frontend:** HTML, CSS, JavaScript, Bootstrap
+- **Backend:** Node.js, Express.js
+- **Database:** MySQL, MongoDB
+- **AI/ML:** Python (AI/ML Libraries)
+- **API:** RESTfull
 
 ## Getting Started
 
