@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Smart Search</title>
+    <!-- Materialize CSS CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <!-- Google Icons CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        .brand-logo img {
+            height: 50px;
+            vertical-align: middle;
+        }
+        .hero {
+            position: relative;
+            background: url('https://via.placeholder.com/1500') no-repeat center center;
+            background-size: cover;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        .hero .content {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .hero .btn-large {
+            background-color: #26a69a;
+            border-radius: 24px;
+        }
+        .nav-wrapper .brand-logo img {
+            max-height: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo">
+                <img src="https://via.placeholder.com/60" alt="Logo"> <!-- Replace with your logo URL -->
+            </a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#get-started" class="btn-small">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Mobile Sidebar -->
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#get-started" class="btn-small">Get Started</a></li>
+    </ul>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="content">
+            <h1>Smart Search</h1>
+            <p>Unleash the Power of Smart Search for Professional Researchers! Find Your Research Company Match Instantly!</p>
+            <a href="#explore" class="btn-large waves-effect waves-light">Explore Now</a>
+        </div>
+    </div>
+
+    <!-- Materialize JS CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        // Initialize the sidenav for mobile
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);
+        });
+    </script>
+</body>
+</html>
+
+<style>
+    .brand-logo img {
+        height: 50px;
+        vertical-align: middle;
+    }
+    .hero {
+        position: relative;
+        background: url('your-image-url') no-repeat center center;
+        background-size: cover;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+    }
+    .hero .content {
+        background: rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        border-radius: 8px;
+    }
+    .hero .btn-large {
+        background-color: #26a69a;
+        border-radius: 24px;
+    }
+    .nav-wrapper .brand-logo img {
+        max-height: 50px;
+    }
+    /* Make sure the navbar is always on top */
+    nav {
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+    }
+    .container {
+        max-width: 1200px;
+        width: 90%;
+        margin: 0 auto;
+    }
+</style>
