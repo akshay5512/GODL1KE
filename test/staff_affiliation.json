@@ -3,156 +3,129 @@
         "name": "Abayomi Otebolaku",
         "affiliation": "Department of Computing, Sheffield Hallam University",
         "email": "@shu.ac.uk",
-        "scholar_id": "QP-O59MAAAAJ"
+        "scholar_id": "QP-O59MAAAAJ",
+        "publications": [
+            {
+                "bib": {
+                    "title": "Data Centric Trust Evaluation and Prediction Framework for IoT",
+                    "pub_year": "2017",
+                    "citation": "ITU Kaleidoscope 2017: Challenges for a data-driven society.  Nanjing, China., 2017"
+                }
+            },
+            {
+                "bib": {
+                    "title": "User context recognition using smartphone sensors and classification models",
+                    "pub_year": "2016",
+                    "citation": "Journal of Network and computer applications 66, 33-51, 2016"
+                }
+            },
+            {
+                "bib": {
+                    "title": "Context-aware media recommendations for smart devices",
+                    "pub_year": "2015",
+                    "citation": "Journal of Ambient Intelligence and Humanized Computing 6, 13-36, 2015"
+                }
+            },
+            {
+                "bib": {
+                    "title": "An Efficient Resource Management Mechanism for Network Slicing in LTE Network",
+                    "pub_year": "2019",
+                    "citation": "IEEE Access, 2019"
+                }
+            },
+            {
+                "bib": {
+                    "title": "A Framework for Exploiting Internet of Things for Context-Aware Trust-based Personalized Services",
+                    "pub_year": "2018",
+                    "citation": "Mobile Information Systems, 2018"
+                }
+            }
+        ]
     },
     {
         "name": "Abdel-Karim Al-Tamimi",
         "affiliation": "Senior Lecturer at Sheffield Hallam University, Associate Professor of Computer Eng, Yarmouk Univ",
         "email": "@shu.ac.uk",
-        "scholar_id": "oVygx30AAAAJ"
+        "scholar_id": "oVygx30AAAAJ",
+        "publications": [
+            {
+                "bib": {
+                    "title": "Scheduling in IEEE 802.16 e mobile WiMAX networks: key issues and a survey",
+                    "pub_year": "2009",
+                    "citation": "IEEE Journal on selected areas in communications 27 (2), 156-171, 2009"
+                }
+            },
+            {
+                "bib": {
+                    "title": "Performance analysis of data encryption algorithms",
+                    "pub_year": "2011",
+                    "citation": "Electronics Computer Technology (ICECT), 2011 3rd International Conference \u2026, 2011"
+                }
+            },
+            {
+                "bib": {
+                    "title": "Capacity evaluation for IEEE 802.16 e mobile WiMAX",
+                    "pub_year": "2010",
+                    "citation": "Journal of Computer Systems, Networks, and Communications 2010, 1, 2010"
+                }
+            },
+            {
+                "bib": {
+                    "title": "System-level modeling of IEEE 802.16 E mobile WiMAX networks: key issues",
+                    "pub_year": "2008",
+                    "citation": "IEEE Wireless Communications 15 (5), 2008"
+                }
+            },
+            {
+                "bib": {
+                    "title": "eOCSA: An algorithm for burst mapping with strict QoS requirements in IEEE 802.16 e mobile WiMAX networks",
+                    "pub_year": "2009",
+                    "citation": "2009 2nd IFIP Wireless Days (WD), 1-5, 2009"
+                }
+            }
+        ]
     },
     {
         "name": "Abdussalam, Salama",
         "affiliation": "PhD student",
         "email": "@my.shu.ac.uk",
-        "scholar_id": "QXqMgegAAAAJ"
-    },
-    {
-        "name": "Alessandro Di Nuovo",
-        "affiliation": "Professor of Machine Intelligence, Sheffield Hallam University (UK)",
-        "email": "@shu.ac.uk",
-        "scholar_id": "IU_6XEcAAAAJ"
-    },
-    {
-        "name": "Alex Shenfield",
-        "affiliation": "Sheffield Hallam University",
-        "email": "@shu.ac.uk",
-        "scholar_id": "XwCkg_wAAAAJ"
-    },
-    {
-        "name": "Muhammad Aslam Jarwar, Ph.D., FHEA, SMIEEE",
-        "affiliation": "Assistant Professor, Department of Computing, Sheffield Hallam University",
-        "email": "@shu.ac.uk",
-        "scholar_id": "nQTE0W8AAAAJ"
-    },
-    {
-        "name": "Azida Zainol",
-        "affiliation": "Subject Group Computer Science and Software Engineering, Department of Computing, Sheffield Hallam",
-        "email": "@shu.ac.uk",
-        "scholar_id": "o5_wqzYAAAAJ"
-    },
-    {
-        "name": "chris roast",
-        "affiliation": "Sheffield Hallam University",
-        "email": "@shu.ac.uk",
-        "scholar_id": "aow0GykAAAAJ"
-    },
-    {
-        "name": "Dharmendra Shadija",
-        "affiliation": "Sheffield Hallam University",
-        "email": "@shu.ac.uk",
-        "scholar_id": "0M-QM9sAAAAJ"
-    },
-    {
-        "name": "Dr. Diana Hintea",
-        "affiliation": "Deputy Head of Department (Computing), Sheffield Hallam University",
-        "email": "@shu.ac.uk",
-        "scholar_id": "I7VtI_oAAAAJ"
-    },
-    {
-        "name": "Dr. Jims Marchang",
-        "affiliation": "SHU",
-        "email": "@shu.ac.uk",
-        "scholar_id": "xBDklTsAAAAJ"
-    },
-    {
-        "name": "Kassim Mwitondi",
-        "affiliation": "Industry and Innovation Research Institute, SHU",
-        "email": "@shu.ac.uk",
-        "scholar_id": "T1HUBAwAAAAJ"
-    },
-    {
-        "name": "Lyuba Alboul",
-        "affiliation": "Senior Research Fellow, Sheffield Hallam University",
-        "email": "@shu.ac.uk",
-        "scholar_id": "GaZwp0gAAAAJ"
-    },
-    {
-        "name": "M\u00e1rjory Da Costa-Abreu",
-        "affiliation": "Associate Professor (Reader) in Ethical Artificial Intelligence at Sheffield Hallam University",
-        "email": "@exchange.shu.ac.uk",
-        "scholar_id": "SfamgAEAAAAJ"
-    },
-    {
-        "name": "Mo Rezai",
-        "affiliation": "Dr",
-        "email": "@shu.ac.uk",
-        "scholar_id": "4SDP_zoAAAAJ"
-    },
-    {
-        "name": "Muhammad Aitsam",
-        "affiliation": "Ph.D. Candidate @ Sheffield Hallam University",
-        "email": "@iuse.edu.pk",
-        "scholar_id": "8zEI5F8AAAAJ"
-    },
-    {
-        "name": "Olamilekan  Shobayo",
-        "affiliation": "Sheffield Hallam University",
-        "email": "@shu.ac.uk",
-        "scholar_id": "GGmZdsYAAAAJ"
-    },
-    {
-        "name": "Peter Rowlett",
-        "affiliation": "Reader in higher education mathematics teaching and learning, Sheffield Hallam University",
-        "email": "@shu.ac.uk",
-        "scholar_id": "BVtzIYIAAAAJ"
-    },
-    {
-        "name": "Ra'ed Bani Abdelrahman",
-        "affiliation": "Senior Lecturer in Computer Science and Software Engineering, Sheffield Hallam University",
-        "email": "@shu.ac.uk",
-        "scholar_id": "2YBoeocAAAAJ"
-    },
-    {
-        "name": "Samuele Vinanzi",
-        "affiliation": "Senior Lecturer, Sheffield Hallam University",
-        "email": "@shu.ac.uk",
-        "scholar_id": "bOeQv_YAAAAJ"
-    },
-    {
-        "name": "Sandhya Makkar",
-        "affiliation": "United Kingdom",
-        "email": "@shu.ac.uk",
-        "scholar_id": "H-KP_4EAAAAJ"
-    },
-    {
-        "name": "Siavosh Haghighi Movahed",
-        "affiliation": "Sheffield Hallam University",
-        "email": "",
-        "scholar_id": "GNDpVrUAAAAJ"
-    },
-    {
-        "name": "Sina Pournouri",
-        "affiliation": "Sheffield Hallam Univeristy",
-        "email": "@shu.ac.uk",
-        "scholar_id": "XQG6_oMAAAAJ"
-    },
-    {
-        "name": "Soumya Sankar Basu",
-        "affiliation": "Senior Lecturer, Sheffield Hallam University",
-        "email": "@shu.ac.uk",
-        "scholar_id": "QrBXW2sAAAAJ"
-    },
-    {
-        "name": "Sue Beckingham",
-        "affiliation": "Associate Professor and National Teaching Fellow",
-        "email": "@shu.ac.uk",
-        "scholar_id": "Y_6ZYQ4AAAAJ"
-    },
-    {
-        "name": "Ulka Chandini Pendit",
-        "affiliation": "Sheffield Hallam University",
-        "email": "",
-        "scholar_id": "f4Mtt0QAAAAJ"
+        "scholar_id": "QXqMgegAAAAJ",
+        "publications": [
+            {
+                "bib": {
+                    "title": "Probabilistic Classification of Quality of Service in Wireless Computer Networks",
+                    "pub_year": "2018",
+                    "citation": "Information & Communications Technology Express, 2018"
+                }
+            },
+            {
+                "bib": {
+                    "title": "Quality of service evaluation and assessment methods in wireless networks",
+                    "pub_year": "2017",
+                    "citation": "2017 4th International Conference on Information and Communication \u2026, 2017"
+                }
+            },
+            {
+                "bib": {
+                    "title": "Fuzzy logic and regression approaches for adaptive sampling of multimedia traffic in wireless computer networks",
+                    "pub_year": "2018",
+                    "citation": "Technologies 6 (1), 24, 2018"
+                }
+            },
+            {
+                "bib": {
+                    "title": "Adaptive sampling for QoS traffic parameters using fuzzy system and regression model",
+                    "pub_year": "2017",
+                    "citation": "International Journal of Mathematical Models and Methods in Applied Sciences \u2026, 2017"
+                }
+            },
+            {
+                "bib": {
+                    "title": "Adaptive sampling technique for computer network traffic parameters using a combination of fuzzy system and regression model",
+                    "pub_year": "2017",
+                    "citation": "2017 Fourth International Conference on Mathematics and Computers in \u2026, 2017"
+                }
+            }
+        ]
     }
 ]

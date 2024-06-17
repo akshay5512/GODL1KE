@@ -14,6 +14,15 @@ def checkResearcher(name):
         "affiliation": author.get('affiliation'),
         "email": author.get('email_domain'),
         "scholar_id": author.get('scholar_id'),
+        "publications": [
+            {
+                "bib": {
+                    "title": pub.get('bib', {}).get('title'),
+                    "pub_year": pub.get('bib', {}).get('pub_year'),
+                    "citation": pub.get('bib', {}).get('citation')
+                }
+            } for pub in author.get('publications')[:5] if pub.get('bib')
+        ] if author.get('publications') else "No publications found."
     }
 
     # Check if Author is Affiliated with Sheffield Hallam University or Email: ending with shu.ac.uk
@@ -30,7 +39,7 @@ def readCSV():
             name.append(line.strip())
 
     staff_affiliation = []
-    for n in name:
+    for n in name[:5]:
         details = checkResearcher(n)
         if "error" in details:
             print(details)
