@@ -1,36 +1,56 @@
 let scholars = [];
 
 // Fetch the JSON data
-fetch('papers.json') // Assuming the JSON file is named 'papers.json'
+fetch('staff_affiliation.json')
   .then(response => response.json())
   .then(data => {
-    console.log(data);
     scholars = data;
   })
   .catch(error => {
-    console.error('Error fetching papers.json:', error);
+    console.error('Error staff_affiliation.json:', error);
   });
 
 const searchInput = document.querySelector('.search-input');
 const suggestionsList = document.getElementById('suggestions-list');
-const searchIcon = document.getElementById('search-icon');
+const suggAndResultContainer = document.getElementById('sugg_and_result');
+const resultsContainer = document.getElementById('results');
+
+// Hide the results container initially
+resultsContainer.style.display = 'none';
 
 searchInput.addEventListener('input', function () {
   const input = this.value.toLowerCase();
   const filteredScholars = scholars.filter(scholar => scholar.name.toLowerCase().includes(input));
+  
+  if (input.length > 0) {
+    suggAndResultContainer.style.display = 'block';
+    suggestionsList.style.display = 'block';
+  } else {
+    suggestionsList.style.display = 'none';
+    suggAndResultContainer.style.display = 'none';
+    resultsContainer.style.display = 'none';  // Hide the results container if the input is cleared
+  }
+  
   displaySuggestions(filteredScholars);
 });
 
 function displaySuggestions(suggestions) {
   suggestionsList.innerHTML = '';
-
   if (suggestions.length > 0) {
     suggestions.forEach(suggestion => {
       const listItem = document.createElement('li');
-      listItem.textContent = suggestion.name;
+      listItem.innerHTML = `
+        <div class="profile-container">
+          <img src="${suggestion.url_picture || 'default-profile.jpg'}" alt="${suggestion.name}'s profile picture" class="profile-image">
+          <div class="profile-details">
+            <strong class="resrch_name">Name: </strong> ${suggestion.name}<br>
+            <span class="email"><strong>Interest: </strong> ${suggestion.interests}</span>
+          </div>
+        </div>`;
       listItem.addEventListener('click', function () {
         searchInput.value = suggestion.name;
-        suggestionsList.innerHTML = '';
+        displayResults(suggestion);
+        resultsContainer.style.display = 'block'; // Show the results container when a suggestion is clicked
       });
       suggestionsList.appendChild(listItem);
     });
@@ -45,77 +65,56 @@ searchInput.addEventListener('keypress', function (event) {
   if (event.key === 'Enter') {
     const input = searchInput.value.toLowerCase();
     const results = scholars.filter(scholar => scholar.name.toLowerCase().includes(input));
-    displayResults(results);
-    suggestionsList.innerHTML = ''; // Clear suggestions on search
+    if (results.length > 0) {
+      displayResults(results[0]); // Assuming we select the first result on Enter key press
+      resultsContainer.style.display = 'block';
+    } else {
+      resultsContainer.innerHTML = '<p>No results found.</p>';
+      resultsContainer.style.display = 'none';
+    }
   }
 });
 
-function displayResults(results) {
-  const resultsContainer = document.getElementById('results');
+function displayResults(result) {
   resultsContainer.innerHTML = '';
 
-  if (results.length === 0) {
-    resultsContainer.innerHTML = '<p>No results found.</p>';
-  } else {
-    results.forEach(result => {
-      const resultItem = document.createElement('div');
-      resultItem.className = 'result-item';
-      resultItem.innerHTML = `
-        <h3>${result.name}</h3>
-        <p><strong>Affiliation:</strong> ${result.affiliation}</p>
-        <p><strong>Email:</strong> ${result.email}</p>
-        <p><strong>Scholar ID:</strong> ${result.scholar_id}</p>
-        <p><strong>Publication count:</strong> ${result.publications.length}</p>
-      `;
-      resultItem.addEventListener('click', function () {
-        displayDetailedView(result);
-      });
-      resultsContainer.appendChild(resultItem);
-    });
-  }
-}
-
-function displayDetailedView(result) {
-  const resultsContainer = document.getElementById('results');
-  resultsContainer.innerHTML = `
-    <div class="detailed-view">
-      <h3>${result.name}</h3>
-      <p><strong>Affiliation:</strong> ${result.affiliation}</p>
-      <p><strong>Email:</strong> ${result.email}</p>
-      <p><strong>Scholar ID:</strong> ${result.scholar_id}</p>
-      <p><strong>Publication count:</strong> ${result.publications.length}</p>
-      <h4>Publications</h4>
-      <ul>
-        ${result.publications.map(publication => `
-          <li>
-            <h4>${publication.bib.title}</h4>
-            <p><strong>Publication year:</strong> ${publication.bib.pub_year}</p>
-            <p><strong>Citation:</strong> ${publication.bib.citation}</p>
-            <p><strong>Number of citations:</strong> ${publication.num_citations}</p>
-            <a href="${publication.citedby_url}" target="_blank">View citations</a>
-          </li>
-        `).join('')}
-      </ul>
-      <button onclick="closeDetailedView()">Close</button>
-    </div>
+  const resultItem = document.createElement('div');
+  resultItem.className = 'result-item';
+  resultItem.innerHTML = `
+    <p><strong>Name:</strong> ${result.name}</p>
+    <p><strong>Affiliation:</strong> ${result.affiliation}</p>
+    <p><strong>Email:</strong> ${result.email}</p>
+    <p><strong>Scholar ID:</strong> ${result.scholar_id}</p>
   `;
-}
+  resultsContainer.appendChild(resultItem);
 
-function closeDetailedView() {
-  const resultsContainer = document.getElementById('results');
-  resultsContainer.innerHTML = '';
-}
+  const approximity = document.createElement('div');
+  approximity.className = 'approximity';
+  approximity.innerHTML = `
+    <p><strong>Approximity Graph:</strong> ${result.name}</p>
+  `;
+  resultsContainer.appendChild(approximity);
 
-// Function to toggle the search UI
-function searchToggle(obj, evt) {
-  const container = obj.closest('.search-wrapper');
-
-  if (!container.classList.contains('active')) {
-    container.classList.add('active');
-  } else if (container.classList.contains('active') && obj.closest('.input-holder') === null) {
-    container.classList.remove('active');
-    container.querySelector('.search-input').value = '';
-    container.querySelector('.suggestions-items').innerHTML = '';
+  if (result.publications && result.publications.length > 0) {
+    const publicationsContainer = document.createElement('div');
+    publicationsContainer.className = 'publications';
+    publicationsContainer.innerHTML = '<p><strong>Publications:</strong></p>';
+    result.publications.forEach(publication => {
+      const publicationItem = document.createElement('div');
+      publicationItem.innerHTML = `
+        <p><strong>Title:</strong> ${publication.bib.title}</p>
+        <p><strong>Year:</strong> ${publication.bib.pub_year}</p>
+        <p><strong>Citation:</strong> ${publication.bib.citation}</p>
+        <hr>
+      `;
+      publicationsContainer.appendChild(publicationItem);
+    });
+    resultsContainer.appendChild(publicationsContainer);
+  } else {
+    const noPublicationsItem = document.createElement('p');
+    noPublicationsItem.textContent = 'No publications found.';
+    resultsContainer.appendChild(noPublicationsItem);
   }
-}
 
+  resultsContainer.style.display = 'block'; // Ensure results container is visible
+}
