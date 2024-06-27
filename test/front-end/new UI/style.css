@@ -54,7 +54,7 @@ div#sugg_and_result {
     margin-top: 20px;
 }
 ul#suggestions-list {
-    width: 48%;
+    width: 35%;
     /* box-shadow: -4px 0px 3px 0px #00000024; */
     padding: 0px 15px 15px 0px;
     scroll-behavior: smooth;
@@ -66,7 +66,7 @@ ul#suggestions-list {
     display: inline-block;
 }
 div#results {
-    width: 50%;
+    width: 65%;
     padding: 15px;
     border-radius: 5px;
     height: 540px;
@@ -103,10 +103,24 @@ ul#suggestions-list li:hover {
     display: none;
 }
 
-.suggestions-items {
+#suggestions-list {
+    overflow-y: hidden; 
+    transition: overflow-y 0.2s;
+  }
+  
+  #suggestions-list.show-scrollbar {
+    overflow-y: scroll;
+  }
+  
+  .suggestions-items {
     display: none;
-}
-
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .suggestions-items li.selected {
+    background-color: #d0d0d0;
+  }
 .results-container {
     display: none;
 }
@@ -116,7 +130,7 @@ ul#suggestions-list li:hover {
     margin-right: 5px;
   }
   
-  #suggestions-list li .email {
+  #suggestions-list li .interest {
     display: block;
   }
   .profile_img {
@@ -125,6 +139,12 @@ ul#suggestions-list li:hover {
     height: 45px;
     width: 45px;
     margin: 10px 15px 0px 20px;
+    scale: 1;
+    transition: 0.3s;
+}
+.profile-image:hover {
+    scale: 1.5;
+    transition: 0.3s;
 }
 .aprroximity {
     text-align: left;
@@ -132,6 +152,9 @@ ul#suggestions-list li:hover {
 .profile-container {
     display: flex;
     align-items: center;
+  }
+  .profile-details{
+    text-align: left;
   }
   
   .profile-image {
