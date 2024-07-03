@@ -213,10 +213,12 @@ ul#suggestions-list li:hover {
   }
   
   .approximity {
-    border: 1px solid #000;
+    border: 3px double #000;
     width: 180px;
     height: 140px;
     padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px #0000008f;
 }
 .publications {
     border: 1px solid #000;
@@ -226,4 +228,5 @@ ul#suggestions-list li:hover {
     overflow-x: hidden;
     height: 200px;
     width: 100%;
+    border-radius: 10px;
 }
