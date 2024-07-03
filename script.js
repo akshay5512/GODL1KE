@@ -90,8 +90,9 @@ function displayResults(result) {
   resultItem.innerHTML = `
     <p><strong>Name:</strong> ${result.name}</p>
     <p><strong>Affiliation:</strong> ${result.affiliation}</p>
-    <p><strong>Email:</strong> ${result.email_domain}</p>
-    <p><strong>Scholar ID:</strong> ${result.scholar_id}</p>
+    // <p><strong>Email:</strong> ${result.email_domain}</p>
+    // <p><strong>Scholar ID:</strong> ${result.scholar_id}</p>
+    <p><strong>Scholar ID:</strong> ${result.interest}</p>
   `;
   resultsContainer.appendChild(resultItem);
 
