@@ -3,128 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research Smart Search</title>
-    <!-- Materialize CSS CDN -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
-    <!-- Google Icons CDN -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Custom CSS -->
-    <style>
-        .brand-logo img {
-            height: 50px;
-            vertical-align: middle;
-        }
-        .hero {
-            position: relative;
-            background: url('https://via.placeholder.com/1500') no-repeat center center;
-            background-size: cover;
-            height: 80vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            text-align: center;
-        }
-        .hero .content {
-            background: rgba(0, 0, 0, 0.5);
-            padding: 20px;
-            border-radius: 8px;
-        }
-        .hero .btn-large {
-            background-color: #26a69a;
-            border-radius: 24px;
-        }
-        .nav-wrapper .brand-logo img {
-            max-height: 50px;
-        }
-    </style>
+    <title>Street Photography</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
+    <div class="container">
+        <header>
+            <div class="search-wrapper">
+                <div class="input-holder">
+                    <input type="text" class="search-input" placeholder="Type to search" />
+                    <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+                </div>
+                <span class="close" onclick="searchToggle(this, event);"></span>
+            </div>
+        </header>
 
-    <!-- Navbar -->
-    <nav>
-        <div class="nav-wrapper container">
-            <a href="#" class="brand-logo">
-                <img src="https://via.placeholder.com/60" alt="Logo"> <!-- Replace with your logo URL -->
-            </a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-                <i class="material-icons">menu</i>
-            </a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#get-started" class="btn-small">Get Started</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- Mobile Sidebar -->
-    <ul class="sidenav" id="mobile-demo">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#get-started" class="btn-small">Get Started</a></li>
-    </ul>
-
-    <!-- Hero Section -->
-    <div class="hero">
-        <div class="content">
-            <h1>Smart Search</h1>
-            <p>Unleash the Power of Smart Search for Professional Researchers! Find Your Research Company Match Instantly!</p>
-            <a href="#explore" class="btn-large waves-effect waves-light">Explore Now</a>
-        </div>
+        <main>
+            <section class="content">
+                <div class="article-preview">
+                    <img src="your-image-path.jpg" alt="Viktoria Bolonina">
+                    <h2>Viktoria Bolonina</h2>
+                    <p>@viktoriaphotographs</p>
+                </div>
+                <div class="articles">
+                    <div class="article">
+                        <h3>The Only Rule in Street Photography</h3>
+                        <p>Nick Bedford - February 14, 2019</p>
+                    </div>
+                    <div class="article">
+                        <h3>Cabramatta: A Moment In Time</h3>
+                        <p>Markus Andersen - January 13, 2017</p>
+                    </div>
+                    <div class="article">
+                        <h3>The Storytellers Kit – Daniel Schaefer</h3>
+                        <p>Bellamy - November 3, 2014</p>
+                    </div>
+                    <div class="article">
+                        <h3>The Clock of Life in Street Photography</h3>
+                        <p>Shaun La - June 12, 2004</p>
+                    </div>
+                </div>
+            </section>
+        </main>
     </div>
-
-    <!-- Materialize JS CDN -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script>
-        // Initialize the sidenav for mobile
-        document.addEventListener('DOMContentLoaded', function() {
-            var elems = document.querySelectorAll('.sidenav');
-            var instances = M.Sidenav.init(elems);
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
-
-<style>
-    .brand-logo img {
-        height: 50px;
-        vertical-align: middle;
-    }
-    .hero {
-        position: relative;
-        background: url('your-image-url') no-repeat center center;
-        background-size: cover;
-        height: 80vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        text-align: center;
-    }
-    .hero .content {
-        background: rgba(0, 0, 0, 0.5);
-        padding: 20px;
-        border-radius: 8px;
-    }
-    .hero .btn-large {
-        background-color: #26a69a;
-        border-radius: 24px;
-    }
-    .nav-wrapper .brand-logo img {
-        max-height: 50px;
-    }
-    /* Make sure the navbar is always on top */
-    nav {
-        position: fixed;
-        width: 100%;
-        z-index: 1000;
-    }
-    .container {
-        max-width: 1200px;
-        width: 90%;
-        margin: 0 auto;
-    }
-</style>
