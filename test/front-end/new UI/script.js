@@ -125,11 +125,3 @@ function displayResults(result) {
 
   resultsContainer.style.display = 'block';
 }
-
-suggestionsList.addEventListener('mouseenter', () => {
-  suggestionsList.classList.add('show-scrollbar');
-});
-
-suggestionsList.addEventListener('mouseleave', () => {
-  suggestionsList.classList.remove('show-scrollbar');
-});

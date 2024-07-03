@@ -1,3 +1,31 @@
+:root {
+    --secondary-glow: conic-gradient(
+        from 10deg at 50% 50%,
+        #e52256 0deg,
+        #8f5a93 55deg,
+        #97b5da 120deg,
+        #24424c 160deg,
+        transparent 360deg
+    );
+}
+
+@keyframes rotateGradient {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.animated-gradient {
+    background: var(--secondary-glow);
+    width: 100%;
+    height: 100vh;
+    animation: rotateGradient 10s linear infinite;
+    filter: blur(140px);
+}
+
 body {
     background-color: #f3f4f8;
     overflow: hidden;
@@ -5,15 +33,16 @@ body {
   .container {
     height: 700px;
     width: 100%;
-    background: #fff;
-    position: relative;
-    box-shadow: 2px 2px 15px 6px #00000024;
+    position: absolute;
     border-radius: 5px;
+    top: 150px;
+    left: 0;
+    right: 0;
 }
 .content-wrap.col-12.col-md-12 {
     text-align: center;
     position: absolute;
-    top: 10%;
+    top: 3%;
 }
 input.search-input {
     width: 70%;
@@ -109,7 +138,7 @@ ul#suggestions-list li:hover {
   }
   
   #suggestions-list.show-scrollbar {
-    overflow-y: scroll;
+    overflow-y: hidden;
   }
   
   .suggestions-items {
@@ -141,6 +170,25 @@ ul#suggestions-list li:hover {
     margin: 10px 15px 0px 20px;
     scale: 1;
     transition: 0.3s;
+}
+.suggestions-items::-webkit-scrollbar,.publications::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+.suggestions-items::-webkit-scrollbar-track,.publications::-webkit-scrollbar {
+    background: #f1f1f1; /* Background of the scrollbar track */
+    border-radius: 10px; /* Rounded corners for the track */
+}
+
+.suggestions-items::-webkit-scrollbar-thumb,.publications::-webkit-scrollbar {
+    background: #888; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the thumb */
+    border: 3px solid #f1f1f1; /* Space around the thumb to create padding */
+}
+
+.suggestions-items::-webkit-scrollbar-thumb:hover,.publications::-webkit-scrollbar {
+    /* background: #555; Color of the scrollbar thumb when hovered */
+    opacity: 0;
 }
 .profile-image:hover {
     scale: 1.5;
