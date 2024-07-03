@@ -28,7 +28,7 @@
 
 body {
     background-color: #f3f4f8;
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .container {
     height: 700px;
