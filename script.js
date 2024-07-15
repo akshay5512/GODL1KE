@@ -90,15 +90,14 @@ function displayResults(result) {
   resultItem.innerHTML = `
     <p><strong>Name:</strong> ${result.name}</p>
     <p><strong>Affiliation:</strong> ${result.affiliation}</p>
-    <p><strong>Email:</strong> ${result.email_domain}</p>
-    <p><strong>Scholar ID:</strong> ${result.scholar_id}</p>
+    <p><strong>Interest:</strong> ${result.interests}</p>
   `;
   resultsContainer.appendChild(resultItem);
 
   const approximity = document.createElement('div');
   approximity.className = 'approximity';
   approximity.innerHTML = `
-    <p><strong>Approximity Graph:</strong> ${result.name}</p>
+    <p><strong>Approximity Graph:</strong>Comming Soon..!</p>
   `;
   resultsContainer.appendChild(approximity);
 
